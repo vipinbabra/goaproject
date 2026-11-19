@@ -1,2 +1,12 @@
 *.node
 *.node
+# Ignore environment secrets
+.env
+
+# Ignore dependency and build folders
+node_modules/
+dist/
+
+# Ignore all log files except error.log
+*.log
+!error.log
