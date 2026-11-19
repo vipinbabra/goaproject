@@ -10,8 +10,8 @@ interface NavbarProps {
 
 const NAV_LINKS = [
   { label: "Home", href: "#home", filter: null },
-  { label: "zxcv", href: "#directory", filter: "Indian" as const },
-  { label: "zxcv", href: "#directory", filter: "Russian" as const },
+  { label: "Indian", href: "#directory", filter: "Indian" as const },
+  { label: "Russian", href: "#directory", filter: "Russian" as const },
   { label: "Services", href: "#services", filter: null },
   { label: "Pricing", href: "#pricing", filter: null },
   { label: "FAQ", href: "#faq", filter: null },
